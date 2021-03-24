@@ -1,5 +1,5 @@
 import * as ChildProcesses from "child_process";
-import * as Plist from "plist";
+import * as Plist from "macos-plist";
 import * as ReadXML from "read-xml";
 import { pipeline as pipelineCB, Writable } from "stream";
 import { promisify } from "util";

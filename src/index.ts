@@ -1,5 +1,5 @@
-import * as Plist from "plist";
-import { PlistObject } from "plist";
+import * as Plist from "macos-plist";
+import { PlistObject } from "macos-plist";
 import assembleLicenses from "./assembleLicenses";
 import BodySpec from "./BodySpec";
 import Context from "./Context";

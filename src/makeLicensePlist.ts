@@ -1,4 +1,4 @@
-import { PlistObject } from "plist";
+import { PlistObject } from "macos-plist";
 import { SmartBuffer } from "smart-buffer";
 import { AssembledLicenseSet } from "./assembleLicenses";
 import Context from "./Context";

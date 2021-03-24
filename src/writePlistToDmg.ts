@@ -1,6 +1,6 @@
 import * as ChildProcesses from "child_process";
-import * as Plist from "plist";
-import { PlistValue } from "plist";
+import * as Plist from "macos-plist";
+import { PlistValue } from "macos-plist";
 import { Writable } from "stream";
 
 function writePlist(plist: PlistValue, to: Writable): Promise<void> {

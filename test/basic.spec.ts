@@ -3,7 +3,7 @@ import * as Crypto from "crypto";
 import * as FS from "fs";
 import { encode, transcode } from "iconv-corefoundation";
 import * as Path from "path";
-import { PlistObject } from "plist";
+import { PlistObject } from "macos-plist";
 import { SmartBuffer } from "smart-buffer";
 import { dmgLicenseFromJSON } from "..";
 import * as testLicenseSpec from "./basic-license.json";
